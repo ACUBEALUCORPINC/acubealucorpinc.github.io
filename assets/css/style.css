@@ -1,0 +1,32 @@
+
+body {
+    background-color: #111;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #aaa;
+}
